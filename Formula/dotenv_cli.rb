@@ -1,8 +1,8 @@
 class DotenvCli < Formula
   desc "A CLI for rust-dotenv."
   homepage "https://github.com/sharplet/dotenv_cli"
-  url "https://github.com/sharplet/dotenv_cli/archive/v0.1.0.tar.gz"
-  sha256 "e4e7163fce16cffdb56dace6d3f50f8c276773a5084af5d6bfc10907b3805e84"
+  url "https://github.com/sharplet/dotenv_cli/archive/v0.2.0.tar.gz"
+  sha256 "ec9ca9f953faadd17b7635a42555a22dec68eca19dd6ee0cbfa964494baa3c19"
   depends_on "rust" => :build
 
   def install
