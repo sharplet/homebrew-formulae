@@ -10,7 +10,7 @@ class Dotenv < Formula
   head "https://github.com/purpliminal/rust-dotenv.git"
 
   def install
-    system "cargo", "install", "--path", "dotenv_cli", "--root", prefix
+    system "cargo", "install", "--features", "cli", "--root", prefix
   end
 
   test do
