@@ -3,10 +3,6 @@ class Dotenv < Formula
   homepage "https://github.com/purpliminal/rust-dotenv"
   depends_on "rust" => :build
 
-  devel do
-    url "https://github.com/sharplet/rust-dotenv.git", branch: "dotenv-cli"
-  end
-
   head "https://github.com/purpliminal/rust-dotenv.git"
 
   def install
